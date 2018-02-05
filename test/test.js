@@ -27,7 +27,7 @@ assert = require('assert')
 }
 ,readFile = toPromiseFunc(fs.readFile)
 ,co = require('co')
-,Canvas = require('canvas')
+,Canvas = require('canvas-prebuilt')
 ,Image = Canvas.Image
 
 function* t1() {

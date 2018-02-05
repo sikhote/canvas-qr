@@ -7,7 +7,7 @@
 //globs
 var
 generateFrame = require('./lib/qr-frame.js')
-,Canvas = require('canvas')
+,Canvas = require('canvas-prebuilt')
 ,Image = Canvas.Image
 
 /**
